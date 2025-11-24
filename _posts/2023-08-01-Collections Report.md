@@ -2,7 +2,7 @@
 layout: default
 title: "Collections Report"
 mermaid: true
-tags: projects
+tags: projects work-exp/confie work-exp
 ---
 
 # Confie: Collections Report

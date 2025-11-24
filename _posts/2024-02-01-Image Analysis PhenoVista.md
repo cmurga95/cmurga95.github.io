@@ -2,11 +2,11 @@
 layout: default
 title: "Title"
 mermaid: true
-tags: projects
+tags: projects internship
 ---
 
 
-# Title
+# Image analysis and feature selection
 
 ## Summary
 

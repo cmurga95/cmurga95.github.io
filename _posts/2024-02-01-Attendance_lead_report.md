@@ -2,7 +2,7 @@
 layout: default
 title: "Attendance and Leads Report"
 mermaid: true
-tags: projects
+tags: projects work-exp work-exp/independent
 ---
 
 # Attendance and Leads Report
