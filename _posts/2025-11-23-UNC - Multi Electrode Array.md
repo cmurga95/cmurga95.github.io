@@ -20,6 +20,8 @@ graph TB
 	C --> D[Data Analysis]
 </div>
 
+## Objectives
+
 ## Tools used
 
 Python (Pandas, Dask, Numpy, Seaborn, Matplotlib), Excel
@@ -27,6 +29,8 @@ Python (Pandas, Dask, Numpy, Seaborn, Matplotlib), Excel
 ## Outcome
 
 This workflow reduced times by as much as 90%. Doing this manually was very tedious and time consuming, this automation not only improved the quality of the analysis but it also validated the data and we were able to do visualizations and diagnose potential problems.
+
+---
 
 # Data Acquisition
 
