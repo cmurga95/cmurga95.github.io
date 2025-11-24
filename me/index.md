@@ -17,11 +17,22 @@ Located in Chapel Hill, NC
 
 ## Relevant Coursework
 
-- Data Analytics for Business (Linear Models, Binary Response, Censored/Truncated Models,
-  Survival models)
+- Data Analytics for Business
 
-- Introduction to Analytics Modeling (R, Regression, Classification and Clustering Models, Fore
-  casting, Change Detection, Smoothing, Data Transformation, PCA)
+  - Linear Models
+  - Binary Response
+  - Censored/Truncated Models
+  - Survival models
+
+- Introduction to Analytics Modeling
+
+  - Regression
+  - Classification and Clustering Models
+  - Forecasting
+  - Change Detection
+  - Time series
+  - PCA/PCR
+  - Classification and Regression Trees: trees and random forest
 
 - Computing for Data Analytics (Python- Data Structures, Regression and Classification).
 
