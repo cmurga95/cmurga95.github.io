@@ -5,9 +5,9 @@ title: me
 
 # Carlos Murga
 
-### Data Analyst.
+##### Data Analyst.
 
-### Masters of Science in Analytics Student @ Georgia Institute of Technology
+##### Masters of Science in Analytics Student @ Georgia Institute of Technology
 
 cmmurgav@gmail.com
 
