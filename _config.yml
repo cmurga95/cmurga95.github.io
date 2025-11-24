@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
-url: "https://carlosmurga.com"
-baseurl: ""
+url:
+baseurl: "https://cmurga95.github.io/"
 
 # variables
 name: Carlos Murga
