@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="/assets/css/atom-one-light.css" />
+    
+    <title>Attendance and Leads Report</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/002.css" />
+    
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/custom-img.css" />
+
+    <script src="/assets/js/highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+     <script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  let config = {
+    startOnLoad: true,
+    flowchart: {
+      useMaxWidth: true,
+      htmlLabels: true,
+    },
+  };
+  mermaid.initialize(config);
+</script>
+  
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="default_title">
+        <img src="/assets/img/mycomputer.png" />
+        
+        <h1>Your Site Name</h1>
+        
+      </div>
+      <ul class="topbar">
+  <a href="/me"
+    ><li><u>A</u>bout</li></a
+  >
+  <a
+    href="https://www.linkedin.com/in/carlos-alejandro-murga-8b9426235/"
+    target="_blank"
+    ><li><u>L</u>inkedIn</li></a
+  >
+  <a href="https://github.com/cmurga95" target="_blank"
+    ><li><u>G</u>ithub</li></a
+  >
+</ul>
+
+      <div class="tag_list">
+        <ul id="tag-list">
+          <li>
+            <a href="/"><img src="/assets/img/disk.png" />(C:)</a>
+            <ul>
+               
+              <li>
+                <a
+                  href="/tag/project/"
+                  title="project"
+                  ><img src="/assets/img/folder.ico" />project</a
+                >
+              </li>
+              
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="post_list">
+        
+        <ul>
+          
+          <li>
+            <a href="/20251123/UNC-Multi-Electrode-Array" title="UNC: Multi Electrode Array"
+              ><img src="/assets/img/file.ico" title="UNC: Multi Electrode Array" />UNC: Multi Electrode Array</a
+            >
+          </li>
+          
+          <li>
+            <a href="/20251123/Collections" title="Collections Report"
+              ><img src="/assets/img/file.ico" title="Collections Report" />Collections Report</a
+            >
+          </li>
+          
+          <li>
+            <a href="/20251123/Attendance_lead_report" title="Attendance and Leads Report"
+              ><img src="/assets/img/file.ico" title="Attendance and Leads Report" />Attendance and Leads Report</a
+            >
+          </li>
+          
+        </ul>
+        
+      </div>
+      <div class="post_total">
+        
+        <div class="left">3 object(s)</div>
+        
+        <div class="right">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="content">
+      <div class="post_title">
+        <img src="/assets/img/file.png" />
+        <h1>Attendance and Leads Report</h1>
+        <a href="/"
+          ><div class="btn"><span class="fa fa-times"></span></div
+        ></a>
+        <div class="btn btn_max">
+          <span class="fa fa-window-maximize"></span>
+        </div>
+        <div class="btn"><span class="fa fa-window-minimize"></span></div>
+      </div>
+      <ul class="topbar">
+        <li>November 23, 2025</li>
+      </ul>
+      <div class="post_content"><h1 id="attendance-and-leads-report">Attendance and Leads Report</h1>
+
+<h2 id="objectives">Objectives</h2>
+
+<ul>
+  <li>To identify leads checking in for their first class in order to follow up with them</li>
+  <li>Closely follow members attendance for promotions (based on check-in data) in order to boost retention by handing out timely promotions</li>
+</ul>
+
+<h2 id="skills">Skills</h2>
+
+<p>Python, SQL, DataBase design(SupaBase)</p>
+
+<h2 id="description">Description</h2>
+
+<p>This project automates the extraction, transformation, and reporting of member attendance data from a PushPress dashboard.
+It demonstrates how to build a full-stack data pipeline, leveraging automation, cloud database engineering, and interactive dashboards to generate actionable business insights. I originally used fastAPI to manage CRUD operations, but since I am hosting the app in render’s free tier I had to use 2 services, which caused a delay. I opted to use SupaBase-py and keep everything in a single service.</p>
+
+<h2 id="outcome">Outcome</h2>
+
+<ul>
+  <li>We were able to give promotions in a timely manner, aiding in the retention of members by up to 20%. This was measured using the PushPress app.</li>
+  <li>We were able to convert more leads to permanent members, thanks to the direct approach after tracking them with the alert I set up.</li>
+</ul>
+
+<hr />
+
+<h1 id="detailed---automated-attendance-pipeline--dashboard">Detailed - Automated Attendance Pipeline &amp; Dashboard</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>This project automates the extraction, transformation, and reporting of member attendance data from a PushPress Looker dashboard.
+It demonstrates how to build a full-stack data pipeline, leveraging automation, cloud database engineering, and interactive dashboards to generate actionable business insights. I originally used fastAPI to manage CRUD operations, but since I am hosting the app in render’s free tier I had to use 2 services, which caused a delay. I opted to use SupaBase-py and keep everything in a single service.</p>
+
+<h2 id="skills-used">Skills used</h2>
+
+<p>Python, SQL, DataBase design(SupaBase)</p>
+
+<h2 id="key-features">Key Features</h2>
+
+<ul>
+  <li>Automated scraping of an embedded dashboard (with secure login &amp; filter selection)</li>
+  <li>Parsing and storing clean data in Supabase (PostgreSQL)</li>
+  <li>SQL views &amp; triggers to transform and manage data</li>
+  <li>Interactive web app in Shiny for real-time tracking of kids assistance and engagement</li>
+  <li>Additional Looker dashboard to track new leads</li>
+</ul>
+
+<h2 id="full-workflow">Full Workflow</h2>
+
+<pre class="mermaid">
+flowchart LR
+    A["Automated Scraper(Python + Playwright)"]
+    B["Supabase(PostgreSQL)"]
+    C["SQL Views &amp; Triggers"]
+    D["Shiny Web App"]
+    E["Looker Dashboard"]
+    PP["PushPress"]
+    PP --&gt; A
+    A --&gt; B
+    B --&gt; C
+    C --&gt; D
+    C --&gt; E
+    D &lt;--&gt; B
+</pre>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+
+<h2 id="how-it-works">How it works:</h2>
+
+<ol>
+  <li>Authenticate → filter → export fresh data automatically</li>
+  <li>Clean and push data to Supabase</li>
+  <li>Use views to filter kids vs. adults &amp; identify new members</li>
+  <li>Triggers keep summary tables updated</li>
+  <li>Serve insights via Shiny and Looker dashboards</li>
+</ol>
+
+<h2 id="data-pipeline-highlights">Data Pipeline Highlights</h2>
+
+<ul>
+  <li>Automation: Playwright (Python) handles automatic login, filter selection, dynamic CSV exports, URL manipulation and API calls to SupaBase.</li>
+  <li>Cloud Storage: Supabase Postgres stores all check-ins, sessions, and member details.</li>
+  <li>Data Modeling: SQL views separate kids’ attendance and identify new kids for promotions.</li>
+  <li>Business Logic: Triggers &amp; functions automatically manage new lead and kids records.</li>
+  <li>Reporting: Shiny dashboard for internal use, Looker for stakeholder reporting.</li>
+</ul>
+
+<h2 id="security--best-practices">Security &amp; Best Practices</h2>
+
+<p>.env files used for API keys and credentials — never hardcoded.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Layer</th>
+      <th>Tool/Framework</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Automation</strong></td>
+      <td>Python, Playwright</td>
+    </tr>
+    <tr>
+      <td><strong>Data Storage</strong></td>
+      <td>Supabase (PostgreSQL)</td>
+    </tr>
+    <tr>
+      <td><strong>Processing</strong></td>
+      <td>SQL (views, triggers)</td>
+    </tr>
+    <tr>
+      <td><strong>Reporting</strong></td>
+      <td>Shiny, Looker Studio</td>
+    </tr>
+    <tr>
+      <td><strong>Deployment</strong></td>
+      <td>GitHub Actions, Supabase and Render</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="impact">Impact</h2>
+
+<ul>
+  <li>Improved data accuracy &amp; consistency by automating manual CSV exports</li>
+  <li>Reduced admin effort for tracking kids’ promotions &amp; new leads</li>
+  <li>Better business insights with self-serve dashboards &amp; real-time updates</li>
+</ul>
+
+<h2 id="repository-structure">Repository Structure</h2>
+
+<pre><code class="language-bash">├── daily_update.py/         # Scraper scripts
+├── pushdata.py/             # Saving data to supabase
+├── update_kids_shiny.py/    # Web app source code
+├── main.py/                 # FastAPI
+├── README.md
+└── requirements.txt         # Packages
+</code></pre>
+
+<h2 id="what-i-learned">What I Learned</h2>
+
+<ul>
+  <li>Building robust automation for web scraping with session handling.</li>
+  <li>Using Supabase as a cloud data warehouse.</li>
+  <li>Writing efficient SQL for real-time views and triggers.</li>
+  <li>Combining open-source and SaaS BI tools for end-to-end reporting.</li>
+</ul>
+
+<h2 id="sql-statements">SQL statements</h2>
+
+<pre class="mermaid">
+erDiagram
+    checkins {
+    string name
+    uuid id
+    date datetime
+    str session_title
+    }
+
+        kids {
+                string name
+                uuid id
+                date start_date
+                str current_rank
+                int stripes
+                str class_name
+                date last_promotion_date
+            }
+
+</pre>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+
+<p><strong>Inserting new kids record to kids table when needed</strong></p>
+
+<pre><code class="language-sql">CREATE TRIGGER insert_new_kid_trigger
+
+AFTER INSERT ON checkins
+
+FOR EACH ROW
+
+EXECUTE FUNCTION insert_new_kid_if_needed();
+</code></pre>
+
+<pre><code class="language-sql">BEGIN
+  IF NEW.session_title in ('Youth Jiu Jitsu (Ages 8-14)', 'Youth Jiu Jitsu (Ages 4-8)') THEN
+    IF NOT EXISTS (
+      SELECT 1 FROM kids WHERE client = NEW.client
+    ) THEN
+      INSERT INTO kids (client, start_date)
+      VALUES (NEW.client, DATE(NEW.checkin_datetime));
+    END IF;
+  END IF;
+  RETURN NEW;
+END;
+</code></pre>
+
+<p><strong>Add lead to report_summary</strong></p>
+
+<pre><code class="language-sql">CREATE or replace TRIGGER insert_checkins_trigger
+
+AFTER INSERT ON checkins
+
+FOR EACH ROW
+
+EXECUTE FUNCTION update_report_summary();
+</code></pre>
+
+<pre><code class="language-sql">BEGIN
+  IF NEW."member_status" = 'lead' THEN
+    INSERT INTO report_leads (
+      client,
+      member_status,
+      session_datetime,
+      session_type,
+      session_category_name,
+      session_title,
+      plan_package
+    )
+    VALUES (
+      NEW."client",
+      NEW."member_status",
+      NEW."session_datetime",
+      NEW."session_type",
+      NEW."session_category_name",
+      NEW."session_title",
+      NEW."plan_package"
+    );
+  END IF;
+  RETURN NEW;
+END;
+</code></pre>
+
+<p><strong>VIEW FOR SHINY WEB APP</strong></p>
+
+<pre><code class="language-sql">CREATE OR REPLACE VIEW kids_checkins_summary AS
+with kids_table as (
+  SELECT
+    client,
+    first_name,
+    last_name,
+    start_date,
+    case
+      when last_promotion_date is null then start_date else last_promotion_date
+    end as last_promotion_date,
+    current_rank,
+    stripes,
+    class
+  FROM
+    kids
+)
+
+SELECT
+  k.*,
+  COUNT(*) FILTER (WHERE c.checkin_datetime::date &gt;= k.last_promotion_date::date) AS attendance_since_promotion
+FROM
+  kids_table as k
+JOIN
+  checkins c ON k.client = c.client
+WHERE
+  c.session_title in ('Youth Jiu Jitsu (Ages 4-8)', 'Youth Jiu Jitsu (Ages 8-14)')
+GROUP BY
+  k.client,
+  k.first_name,
+  k.last_name,
+  k.start_date,
+  k.last_promotion_date,
+  k.current_rank,
+  k.stripes,
+  k.class;
+</code></pre>
+
+<h2 id="learn-more-about-it"><a href="https://github.com/cmurga95/chapelhillbjj">Learn More about it!</a></h2>
+</div>
+    </div>
+    
+    <script src="/assets/js/001.js"></script>
+    <script src="/assets/js/002.js"></script>
+    <div class="footer">
+      <p>Carlos Murga | cmmurgav@gmail.com</p>
+    </div>
+  </body>
+</html>

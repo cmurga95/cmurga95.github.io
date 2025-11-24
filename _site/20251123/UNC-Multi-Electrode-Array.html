@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="/assets/css/atom-one-light.css" />
+    
+    <title>UNC: Multi Electrode Array</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/002.css" />
+    
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/custom-img.css" />
+
+    <script src="/assets/js/highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+     <script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  let config = {
+    startOnLoad: true,
+    flowchart: {
+      useMaxWidth: true,
+      htmlLabels: true,
+    },
+  };
+  mermaid.initialize(config);
+</script>
+   <script
+  type="text/javascript"
+  async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
+></script>
+ 
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="default_title">
+        <img src="/assets/img/mycomputer.png" />
+        
+        <h1>Your Site Name</h1>
+        
+      </div>
+      <ul class="topbar">
+  <a href="/me"
+    ><li><u>A</u>bout</li></a
+  >
+  <a
+    href="https://www.linkedin.com/in/carlos-alejandro-murga-8b9426235/"
+    target="_blank"
+    ><li><u>L</u>inkedIn</li></a
+  >
+  <a href="https://github.com/cmurga95" target="_blank"
+    ><li><u>G</u>ithub</li></a
+  >
+</ul>
+
+      <div class="tag_list">
+        <ul id="tag-list">
+          <li>
+            <a href="/"><img src="/assets/img/disk.png" />(C:)</a>
+            <ul>
+               
+              <li>
+                <a
+                  href="/tag/project/"
+                  title="project"
+                  ><img src="/assets/img/folder.ico" />project</a
+                >
+              </li>
+              
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="post_list">
+        
+        <ul>
+          
+          <li>
+            <a href="/20251123/UNC-Multi-Electrode-Array" title="UNC: Multi Electrode Array"
+              ><img src="/assets/img/file.ico" title="UNC: Multi Electrode Array" />UNC: Multi Electrode Array</a
+            >
+          </li>
+          
+          <li>
+            <a href="/20251123/Collections" title="Collections Report"
+              ><img src="/assets/img/file.ico" title="Collections Report" />Collections Report</a
+            >
+          </li>
+          
+          <li>
+            <a href="/20251123/Attendance_lead_report" title="Attendance and Leads Report"
+              ><img src="/assets/img/file.ico" title="Attendance and Leads Report" />Attendance and Leads Report</a
+            >
+          </li>
+          
+        </ul>
+        
+      </div>
+      <div class="post_total">
+        
+        <div class="left">3 object(s)</div>
+        
+        <div class="right">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="content">
+      <div class="post_title">
+        <img src="/assets/img/file.png" />
+        <h1>UNC: Multi Electrode Array</h1>
+        <a href="/"
+          ><div class="btn"><span class="fa fa-times"></span></div
+        ></a>
+        <div class="btn btn_max">
+          <span class="fa fa-window-maximize"></span>
+        </div>
+        <div class="btn"><span class="fa fa-window-minimize"></span></div>
+      </div>
+      <ul class="topbar">
+        <li>November 23, 2025</li>
+      </ul>
+      <div class="post_content"><h1 id="multi-electrode-array-analysis">Multi Electrode Array Analysis</h1>
+
+<h2 id="summary">Summary</h2>
+
+<p>My work as a Research Technician at the University of North Carolina involved working with Multi Electrode Array (MEA). This is a technique to measure electrical activity from neurons. Work consisted in cleaning, merging and visualization of this in an organized and accurate manner.
+This is an over all workflow:</p>
+
+<div class="mermaid">
+graph TB
+	A[Data acquisition] --&gt; B[Generate Files]
+	B --&gt; C[Clean and Merge Weekly Files]
+	C --&gt; D[Data Analysis]
+</div>
+
+<h2 id="tools-used">Tools used</h2>
+
+<p>Python (Pandas, Dask, Numpy, Seaborn, Matplotlib), Excel</p>
+
+<h2 id="outcome">Outcome</h2>
+
+<p>This workflow reduced times by as much as 90%. Doing this manually was very tedious and time consuming, this automation not only improved the quality of the analysis but it also validated the data and we were able to do visualizations and diagnose potential problems.</p>
+
+<h1 id="data-acquisition">Data Acquisition</h1>
+
+<p>The Data Acquisition step consisted in reading electrical activity of a plate.
+Below is an example of a plate</p>
+
+<p><img src="/assets\img\proj\Pasted%20image%2020250728150740.png" /></p>
+
+<p>From which many files are generated (see below). The file we are the most interested in is the <strong>Statistics Summary</strong>. It contained a summary of the behavior of the plate for each well in terms of several metrics (Mean Firing Rate, Number of Spikes, Average Spikes per Burst, Std spikes per Bursts, etc.).</p>
+
+<div class="mermaid">
+graph LR
+    AAA["Axis Navigator Software"] --&gt; R[.raw file] ==&gt; A[Spike Detection]
+    
+    A ==&gt; B[Burst Detector] ==&gt; C[Statistics Compiler] ==&gt; CSV&gt;" Statistics Summary .csv file "]:::outputDoc
+
+    A --&gt; D&gt;".spk Spike File"]:::outputDoc
+    A --&gt; E[Spike List] --&gt; csvsl&gt;"csv file spike list"]
+    A --&gt; F[Spike Count] --&gt; csvsc&gt;"csv file spike count"]
+
+    B --&gt; G[Electrode Burst]
+    B --&gt; H[Network Burst]
+
+
+    D --&gt; NMT["Spike and burst visualization - Neural Metric Tool"]
+
+    classDef outputDoc fill:#f96,stroke:#f96
+
+</div>
+
+<h1 id="clean-and-merge-files">Clean and Merge Files</h1>
+
+<p>I wrote a Python script to do this automatically.</p>
+
+<div class="mermaid">
+graph TB
+	CSV@{shape: docs, label: "Statistics Summary (.csv file)"}
+	CSV --&gt; A["Clean and process files (batch process)"]
+	A --&gt; B["Single CSV file generation"]
+	B --&gt; C["Analysis and visualization"]
+</div>
+
+<h1 id="my-contribution">My contribution</h1>
+
+<ul>
+  <li>Automation of the extraction and visualization of reports</li>
+  <li>I noticed they were not using the correct parameters to detect spikes, this lead to misleading conclusions. I proposed a different approach.</li>
+  <li>Validation of Spikes</li>
+</ul>
+
+<h2 id="spike-detector">Spike Detector</h2>
+
+<p>Setting a proper detection threshold is crucial for accurate neural data analysis. Lower thresholds increase the incidence of false-positives (small noise events misidentified as spikes); higher thresholds may not detect smaller amplitude action potentials. Axion recommends an adaptive threshold of 6 x standard deviations to minimize both false-positives and missed detections.
+<strong>Adaptive Threshold</strong>: Threshold is set on a per electrode basis, as multiple of the noise of the continuous data.
+<strong>Detect Only Crossings</strong>: requires the signal to return below threshold before detecting an additional spike.</p>
+
+<h1 id="why-fixed-thresholds-fail">Why Fixed Thresholds Fail</h1>
+
+<h2 id="problem"><em>Problem</em></h2>
+
+<ul>
+  <li>A fixed threshold (e.g., 5 µV) ignores <strong>electrode-specific noise</strong>:
+    <ul>
+      <li><strong>False positives</strong>: Noisy channels misclassify noise as spikes.</li>
+      <li><strong>False negatives</strong>: Quiet channels miss low-amplitude spikes.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong><em>The images below are created from synthetic data for demonstration purposes</em></strong></p>
+
+<h3 id="2uv-noise">2uV noise</h3>
+
+<p><img src="/assets\img\proj\Pasted%20image%2020250507225657.png" alt="Pasted image 20250507225657" /></p>
+
+<h3 id="4-uv-noise">4 uV noise</h3>
+
+<p><img src="/assets\img\proj\Pasted%20image%2020250507225703.png" alt="Pasted image 20250507225703" /></p>
+
+<h3 id="8-uv-noise">8 uV noise</h3>
+
+<p><img src="/assets\img\proj\Pasted%20image%2020250507225709.png" alt="Pasted image 20250507225709" /></p>
+
+<h2 id="spike-validation">Spike Validation</h2>
+
+<h2 id="extraction-of-spike-windows-to-validate-visually">Extraction of Spike Windows to validate visually</h2>
+
+<p><img src="/assets\img\proj\Pasted%20image%2020250728151200.png" alt="Pasted image 20250728151200" /></p>
+
+<p>A strategy to validate the spikes is to first take a spike waveform that we visually validate and reconstruct a wavelet based on the frequencies of said spike. Or take a spike that already looks like the spike wavelet.</p>
+
+<p>But first, denoising the signal will improve the results. For this, we use the Teager Energy Operator and reconstruct each spike, after this use the wavelet</p>
+
+<p>It would be wise (for computing reasons) to only use N number of samples, we could take Week Number 3 to run the validation protocol and exclude noisy electrodes or with poor validation scores.</p>
+
+<h2 id="sample-size-calculation">Sample size calculation</h2>
+
+<p>The N number of samples would be calculated as followed:</p>
+
+<h3 id="population-size">Population size</h3>
+
+<p>We know the total number of spikes per electrode, this would be our population size per electrode.</p>
+
+<h3 id="margin-of-error-confidence-interval">Margin of Error (Confidence Interval)</h3>
+
+<p>This percentage indicates how much our sample results may deviate from the true population value</p>
+
+<h3 id="confidence-level">Confidence Level</h3>
+
+<p>This would reflect how confident we want to be that the true population parameter lies within the margin of error that we set.
+Common levels are:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Level</th>
+      <th>Z-Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>90%</td>
+      <td>1.645</td>
+    </tr>
+    <tr>
+      <td>95%</td>
+      <td>1.96</td>
+    </tr>
+    <tr>
+      <td>99%</td>
+      <td>2.576</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="sample-size">Sample size</h3>
+
+<p>\(n=\frac{z^2 \cdot p \cdot (1 - p)}{e^2}\)
+p = population proportion</p>
+
+<p>e = margin of error</p>
+
+<p>z = z score associated with confidence level</p>
+
+<h5 id="for-finite-populations-like-ours">For finite populations (like ours)</h5>
+
+<p>If total number of spikes (N) is known and relatively small (e.g., &lt;100,000), adjust the sample size:</p>
+
+<p>\(n=\frac {n_{0}}{1+\frac{(n_{0}−1)}{N}}\)
+​This prevents oversampling when N is small.</p>
+
+<p><strong>Important note, spikes selected must be random</strong></p>
+
+<h3 id="teager-energy-operator">Teager Energy Operator</h3>
+
+<p>It calculates the energy of a signal
+For this we should find signals where spikes are NOT present</p>
+
+<p>For discrete signals:</p>
+
+<p>\(x(n)=\frac{x(n)^2−x(n−1)x(n+1))}{T^2}\)
+Assumption of T = 1</p>
+
+<p>But we can also use \(1/fs\)</p>
+
+<h5 id="implementation-to-denoise-signal">Implementation to denoise signal</h5>
+
+<ol>
+  <li>Find a time where a signal is not present (e.g. It is pure noise) for each electrode (take 3 random spikes and use 1 ms before and 1 ms after, we can validate visually).</li>
+  <li>We assume that this noise is stationary (doesn’t change overtime) and use this TEO (calculated on a per electrode basis) for each own electrode (if we want to validate each weeks readings we need to re-calculate for each reading, because noise can vary)</li>
+  <li>Based on this we clean each previously selected spike and reconstruct a clean spike.</li>
+  <li>Move to SWT</li>
+</ol>
+
+<h3 id="frequency-spectrum-analysis">Frequency Spectrum Analysis</h3>
+
+<p>By deconstructing the signal in its frequency spectrum, we can determine if a signal is noise or a real expected signal from a neuron.
+<img src="/assets\img\proj\Pasted%20image%2020250728151334.png" alt="Pasted image 20250728151334" /></p>
+
+<p>FFT has low temporal resolution, another option is to run the analysis using Stationary Wavelet Transform, which extends the Fourier transform to have better temporal resolution.</p>
+
+<p><img src="/assets\img\proj\Pasted%20image%2020250513124836.png" alt="Pasted image 20250513124836" /></p>
+
+<p>SWT is decomposed into Low frequency Component (A) and the high frequency component (D).
+If we take the signal power ratio (D/A), we want to have a <em>high</em> signal to noise ratio. Based on this, we can then build a threshold and determine real signals from noise.</p>
+</div>
+    </div>
+    
+    <script src="/assets/js/001.js"></script>
+    <script src="/assets/js/002.js"></script>
+    <div class="footer">
+      <p>Carlos Murga | cmmurgav@gmail.com</p>
+    </div>
+  </body>
+</html>
