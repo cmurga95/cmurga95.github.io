@@ -5,15 +5,15 @@ title: me
 
 # Carlos Murga
 
+### Data Analyst.
+
+### Masters of Science in Analytics Student @ Georgia Institute of Technology
+
 cmmurgav@gmail.com
 
 US Citizen
 
 Located in Chapel Hill, NC
-
-## Data Analyst.
-
-### Masters of Science in Analytics Student @ Georgia Institute of Technology
 
 ## Relevant Coursework
 
