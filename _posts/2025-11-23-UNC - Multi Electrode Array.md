@@ -2,7 +2,7 @@
 layout: default
 title: "UNC: Multi Electrode Array"
 mermaid: true
-tags: project
+tags: projects
 mathjax: true
 ---
 
