@@ -185,16 +185,29 @@
       <div class="post_content"><h1 id="confie-collections-report">Confie: Collections Report</h1>
 
 <h2 id="summary">Summary</h2>
+<p>Debt Collections team efforts. The goal of this project was to develop a Tableau dashboard to visualize several call center KPI such as: average handle time, number of calls, answered calls, unanswered calls, etc. But also information from the accounts they were reaching. Given the nature of the data, they had different sources. The first challenge was to integrate all of this data into an unified view, this is where I shinedP: I am pretty good at SQL :)</p>
 
-<p>During my time as a Data Analyst at Confie I worked on a project to support the Debt Collections team efforts</p>
+<div class="mermaid">
+graph LR
+    A["Raw call center data"]
+    B["Accounts data"]
+    C["Payment data"]
+    D["Integrating call center data: cleaning, transforming, aggregating"]
+    E["Integrating payment data"]
+    F["Tableau dashboard"]
+    G["Unified data view"]
+
+    A --&gt; D --&gt; G
+    B --&gt; G
+    C --&gt; E --&gt; G
+    G --&gt; F
+</div>
 
 <h2 id="objectives">Objectives</h2>
 
 <ul>
-  <li>Develop a dataset containing</li>
-  <li>
-    <h2 id="develop-a-tableau-dashboard-to-visualize-and-track-debt-collections-kpis">Develop a Tableau Dashboard to visualize and track Debt Collections KPIs</h2>
-  </li>
+  <li></li>
+  <li>Develop a Tableau Dashboard to visualize KPIs</li>
 </ul>
 
 <h2 id="toolsskills-used">Tools/skills used</h2>

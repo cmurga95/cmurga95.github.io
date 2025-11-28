@@ -5,10 +5,10 @@ mermaid: true
 tags: projects internship
 ---
 
-
 # Image analysis and feature selection
 
 ## Summary
+This project 
 
 ## Objectives
 
