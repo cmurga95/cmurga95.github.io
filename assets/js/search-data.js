@@ -451,12 +451,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -491,6 +486,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-attendance-and-leads-report",
+          title: 'Attendance and Leads Report',
+          description: "BPO division wanted a dashboard where they could visualize a summary of all KPI of all",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/attendance_lead_report/";
+            },},{id: "projects-ultra-cool-big-visualization-bpo-support",
+          title: 'Ultra cool big visualization BPO Support',
+          description: "BPO division wanted a dashboard where they could visualize a summary of all KPI of all",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bpo_support/";
             },},{id: "projects-confie-collections-report",
           title: 'Confie Collections Report',
           description: "Tableau Report with multiple views and filters",
