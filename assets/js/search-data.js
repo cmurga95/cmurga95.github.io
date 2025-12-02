@@ -491,9 +491,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-confie-collections-report",
+          title: 'Confie Collections Report',
+          description: "Tableau Report with multiple views and filters",
           section: "Projects",handler: () => {
               window.location.href = "/projects/confie_collections_report/";
             },},{
