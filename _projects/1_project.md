@@ -1,81 +1,54 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Confie Collections Report
+description: Tableau Report with multiple views and filters 
+img: 
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Confie: Collections Report
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Summary
+Visualizing Debt Collections team efforts. The goal of this project was to develop a Tableau dashboard to visualize several call center KPI such as: average handle time, number of calls, answered calls, unanswered calls, etc. in a single unified dashboard, it was important to see information from the accounts they were reaching. Given the nature of the data, they had different sources. The first challenge was to integrate all of this data into an unified view, this is where I shined: I am pretty good at SQL :\) and Tableau too. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="mermaid">
+graph LR
+    A["Raw call center data"]
+    B["Accounts data"]
+    C["Payment data"]
+    D["Integrating call center data: cleaning, transforming, aggregating"]
+    E["Integrating payment data"]
+    F["Tableau dashboard"]
+    G["Unified data view"]
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    A --> D --> G
+    B --> G
+    C --> E --> G
+    G --> F
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Objectives
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- Unify all data in a single data view
+- Develop a Tableau Dashboard to visualize KPIs
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Additionally, a parallel project that came after this one using the same data set
+- Develop predictive and clustering models to predict likelihood of payment and segment different customers to optimize collections strategies.
 
-{% raw %}
+## Tools/skills used
+### Tools
+SQL, Tableau, Python
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+### Skills
+Organization, problem solving, attention to detail, team-work and presentation
+
+## Challenges
+The biggest challenge was dealing with the data. It was a lot of effort to integrate all the data together.
+
+## Outcome
+The outcome was a practical and beautiful Tableau dashboard, where they could just take a look at the dashboard and see where they are at, this saved a lot as they were doing this with manual weekly reports. They were also able to identify top and bottom performers.
+
+The data set served as a source for other projects and analysis. 
