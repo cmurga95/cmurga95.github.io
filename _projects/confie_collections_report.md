@@ -9,8 +9,6 @@ related_publications: true
 mermaid: enabled: true zoomable: true 
 ---
 
-# Confie: Collections Report
-
 ## Summary
 Visualizing Debt Collections team efforts. The goal of this project was to develop a Tableau dashboard to visualize several call center KPI such as: average handle time, number of calls, answered calls, unanswered calls, etc. in a single unified dashboard, it was important to see information from the accounts they were reaching. Given the nature of the data, they had different sources. The first challenge was to integrate all of this data into an unified view, this is where I shined: I am pretty good at SQL :\) and Tableau too. 
 
