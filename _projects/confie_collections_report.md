@@ -6,7 +6,9 @@ img:
 importance: 1
 category: work
 related_publications: true
-mermaid: enabled: true zoomable: true 
+mermaid: 
+    enabled: true 
+    zoomable: true 
 ---
 
 ## Summary
