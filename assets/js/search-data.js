@@ -495,7 +495,7 @@ ninja.data = [{
           title: '',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/confie%20collections%20report/";
+              window.location.href = "/projects/confie_collections_report/";
             },},{
         id: 'social-cv',
         title: 'CV',
