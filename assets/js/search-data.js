@@ -451,9 +451,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-confie-collections-report",
+          title: 'Confie Collections Report',
+          description: "Tableau Report with multiple views and filters",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
@@ -509,6 +509,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%63%6D%6D%75%72%67%61%76@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/cmurga95", "_blank");
         },
       },{
         id: 'social-instagram',
