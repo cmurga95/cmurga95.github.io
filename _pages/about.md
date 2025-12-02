@@ -2,13 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Kinetic Strategist
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>cmmurgav@gmail.com</p>
     <p>Chapel Hill, North Carolina</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
