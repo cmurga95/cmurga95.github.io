@@ -37,15 +37,14 @@ graph LR
 Additionally, a parallel project that came after this one using the same data set
 - Develop predictive and clustering models to predict likelihood of payment and segment different customers to optimize collections strategies.
 
-## Tools/skills used
-### Tools
+## Tools
 SQL, Tableau, Python
 
 
-### Skills
-Organization, problem solving, attention to detail, team-work and presentation
+## Skills
+Data analysis, organization, problem solving, attention to detail, team-work and presentation
 
-## Challenges
+# Challenges
 The biggest challenge was dealing with the data. It was a lot of effort to integrate all the data together.
 
 ## Outcome
