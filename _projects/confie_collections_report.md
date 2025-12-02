@@ -5,6 +5,7 @@ description: Tableau Report with multiple views and filters
 img: 
 importance: 1
 category: work
+giscus_comments: true
 related_publications: true
 mermaid:
   enabled: true
