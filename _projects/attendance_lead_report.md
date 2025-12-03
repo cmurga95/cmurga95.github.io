@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Attendance and Leads Report"
-description: BPO division wanted a dashboard where they could visualize a summary of all KPI of all 
-img: 
+description: BPO division wanted a dashboard where they could visualize a summary of all KPI of all
+img:
 importance: 1
 category: independent-work
 giscus_comments: true
@@ -11,7 +11,6 @@ mermaid:
   enabled: true
   zoomable: true
 ---
-
 
 ## Objectives
 
@@ -55,7 +54,7 @@ Python, SQL, DataBase design(SupaBase)
 
 ## Full Workflow
 
-```
+```mermaid
 flowchart LR
     A["Automated Scraper(Python + Playwright)"]
     B["Supabase(PostgreSQL)"]
