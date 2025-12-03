@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Carlos Murga",
+    "label": "Kinetic Strategist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "cmmurgav@gmail.com",
+    "phone": "(760) 846 6541",
+    "url": "https://cmurga95.github.io/",
+    "summary": "Crafty data analyst, problem solver, movement seeker. Passionate about leveraging data to drive strategic decisions and uncover insights that propel business growth. Adept at transforming complex datasets into actionable strategies. Always eager to explore new challenges and opportunities for innovation.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,120 +24,74 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "University of North Carolina at Chapel Hill",
+      "position": "Research Data Analyst",
+      "location": "Chapel Hill, NC.",
+      "url": "",
+      "startDate": "2025-02-01",
+      "endDate": "2025-12-01",
+      "summary": "MEA feature extraction, data cleaning, and statistical analysis using Python and R.",
+      "highlights": ["MEA Analysis", "Data Cleaning", "Statistical Analysis"]
+    },
+    {
+      "name": "Confie",
+      "position": "Data Analyst",
+      "location": "Remote",
+      "url": "",
+      "startDate": "2023-02-01",
+      "endDate": "2024-07-01",
+      "summary": "Tableau dashboard creation and data visualization, data cleaning and extraction using SQL.",
+      "highlights": ["Tableau", "Data Cleaning", "Statistical Analysis"]
     }
   ],
-  "volunteer": [
+  "internship": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
+      "name": "PhenoVista",
+      "location": "San Diego, CA.",
       "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "url": "",
+      "startDate": "2023-01-01",
+      "endDate": "2024-04-01",
+      "summary": "Developed features in image analysis software using Python.",
+      "highlights": [
+        "Reduced analysis time by 20% through optimized algorithms.",
+        "Collaborated with cross-functional teams to enhance software usability."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "Georgia Institute of Technology",
+      "location": "It's remote but the unversity is in Atlanta, GA.",
+      "url": "https://pe.gatech.edu/degrees/analytics",
+      "area": "Data science, analytics",
+      "studyType": "MS",
+      "startDate": "2025-01-01",
+      "endDate": "2027-12-12",
+      "score": "3.8",
+      "courses": [
+        "Computing for Data Analysis",
+        "Introduction to Analytics Modeling",
+        "Data Analytics in Business"
+      ]
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Supervised ML: Regression and Classification",
+      "date": "2024-01-01",
+      "issuer": "deeplearning.ai"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Advanced Learning Algorithms",
+      "date": "2024-05-01",
+      "issuer": "deeplearning.ai"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "R",
+      "level": "Profficient",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Quantum Mechanics",
@@ -147,11 +101,51 @@
         "Quantum Communication",
         "Quantum Teleportation"
       ]
+    },
+    {
+      "name": "Python",
+      "level": "Profficient",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
+      ]
+    },
+    {
+      "name": "Statistical Analysis",
+      "level": "Profficient",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Regression Models",
+        "Hypothesis Testing",
+        "Time Series Analysis",
+        "Clustering",
+        "Classification",
+        "Predictive analytics",
+        "Prescriptive analytics"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Profficient",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Clustering",
+        "Classification",
+        "Predictive analytics",
+        "K-means",
+        "Decision Trees",
+        "Random Forests"
+      ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Spanish",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,38 +157,16 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Machine learning",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Artificial Intelligence",
+        "Neural Networks",
+        "Deep Learning",
+        "Reinforcement Learning",
+        "XGBoost",
+        "LightGBM"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
