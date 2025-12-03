@@ -440,16 +440,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-moved-to-chapel-hill-north-carolina-i-took-a-relocation-break",
+          title: 'I moved to Chapel Hill, North Carolina. I took a relocation break.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-started-cse6040-computing-for-data-analytics-through-edx",
+          title: 'Started CSE6040: Computing for Data Analytics through EDX',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-was-admitted-to-the-program-at-georgia-institute-of-technology",
+          title: 'I was admitted to the program at Georgia Institute of Technology!',
+          description: "",
+          section: "News",},{id: "news-started-master-of-science-of-analytics-officially-i-transferred-the-credits-from-cse6040-too",
+          title: 'Started Master of Science of Analytics officially. I transferred the credits from CSE6040...',
           description: "",
           section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
