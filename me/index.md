@@ -4,17 +4,14 @@ title: me
 ---
 
 # Carlos Murga
+
 ##### Crafty problem solver
 
 ##### Masters of Science in Analytics Student @ Georgia Institute of Technology
 
 cmmurgav@gmail.com
 
-US Citizen | Located in Chapel Hill, NC
----
-
-
-
+## US Citizen | Located in Chapel Hill, NC
 
 ## Relevant Coursework
 

@@ -31,4 +31,25 @@ Coming from a biomedical sciences engineering degree, I have experience working 
 
 I always liked movement and exercise and help people, and I decided to pursue a career as a Physical Therapist. Unfortunately It didn't fulfill me, I was craving something where I could solve more meaningful and challenging problems and have a bigger impact, that's when I found Data Science. I self taught tableau, SQL and python and I managed to land a role as a Data Analyst at Confie; I worked there from February of 2023 to July 2024 and after this I moved to North Carolina. I couldn't hold my position at Confie, but as a person who always tries to move forward I decided to pursue other opportunities while trying to move forward with my career. I applied to the Online Master of Analytics at Georgia Institute of Technology and I was accepted. In the meantime I worked part-time roles as a barista (I love coffee!) and front desk at a Brazilian Jiujitsu Gym (I also love brazilian jiujitsu!). In February of 2025 I started working at the University of North Carolina as a Research Data Analyst, working primarily with MEA readings from neurons.
 
-I wish to pursue a career as a Data Scientist within biotech or healthcare.
+I wish to pursue a career as a Data Scientist within biotech or healthcare but I am open to more opportunities in other fields as well. I like challenges.
+
+Here's the courses I have completed so far:
+
+- Data Analytics for Business
+
+  - Linear Models
+  - Binary Response
+  - Censored/Truncated Models
+  - Survival models
+
+- Introduction to Analytics Modeling
+
+  - Regression
+  - Classification and Clustering Models
+  - Forecasting
+  - Change Detection
+  - Time series
+  - PCA/PCR
+  - Classification and Regression Trees: trees and random forest
+
+- Computing for Data Analytics (Python- Data Structures, Regression and Classification).
