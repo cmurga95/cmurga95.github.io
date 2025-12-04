@@ -8,17 +8,17 @@
     "url": "https://cmurga95.github.io/",
     "summary": "Crafty data analyst, problem solver, movement seeker. Passionate about leveraging data to drive strategic decisions and uncover insights that propel business growth. Adept at transforming complex datasets into actionable strategies. Always eager to explore new challenges and opportunities for innovation.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      // "address": "2712 Broadway St",
+      // "postalCode": "CA 94115",
+      "city": "Chapel Hill",
+      "countryCode": "NC",
+      "region": "North Carolina"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "cmurga95",
+        "url": "https://www.linkedin.com/in/carlos-alejandro-murga-8b9426235/"
       }
     ]
   },
@@ -62,7 +62,7 @@
   "education": [
     {
       "institution": "Georgia Institute of Technology",
-      "location": "It's remote but the unversity is in Atlanta, GA.",
+      "location": "Online:)",
       "url": "https://pe.gatech.edu/degrees/analytics",
       "area": "Data science, analytics",
       "studyType": "MS",
@@ -94,12 +94,10 @@
       "level": "Profficient",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Data processing",
+        "Statistical Analysis",
+        "Machine Learning",
+        "Visualization"
       ]
     },
     {
@@ -107,12 +105,16 @@
       "level": "Profficient",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Data processing",
+        "Statistical Analysis",
+        "Machine Learning",
+        "Visualization",
+        "Image processing",
+        "Web scraping",
+        "Pandas",
+        "Plotly",
+        "scikit-learn",
+        "open-cv"
       ]
     },
     {
@@ -167,6 +169,11 @@
         "XGBoost",
         "LightGBM"
       ]
+    },
+    {
+      "name": "Healthcare",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Business Analyst", "Data pipelines"]
     }
   ]
 }
