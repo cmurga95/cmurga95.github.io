@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "Hey you! Here&#39;s where I am at right now. I am looking for opportunities in the data science field. Hit me up at cmmurgav@gmail.com",
@@ -404,7 +397,7 @@ ninja.data = [{
           title: 'The Martian',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/the_martian/";
             },},{id: "news-i-moved-to-chapel-hill-north-carolina-i-took-a-relocation-break",
           title: 'I moved to Chapel Hill, North Carolina. I took a relocation break.',
           description: "",
