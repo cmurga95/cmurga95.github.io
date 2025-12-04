@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Ultra cool big visualization BPO Support"
-description: BPO division wanted a dashboard where they could visualize a summary of all KPI of all 
-img: 
+description: BPO division wanted a dashboard where they could visualize a summary of all KPI of all
+img:
 importance: 1
 category: work
 giscus_comments: true
@@ -10,6 +10,8 @@ related_publications: true
 mermaid:
   enabled: true
   zoomable: true
+toc:
+  beginning: true
 ---
 
 ## Summary

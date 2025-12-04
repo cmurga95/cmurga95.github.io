@@ -10,6 +10,8 @@ related_publications: true
 mermaid:
   enabled: true
   zoomable: true
+toc:
+  beginning: true
 ---
 
 ## Objectives
