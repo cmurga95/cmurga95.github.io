@@ -170,7 +170,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+include: ["_pages", "_pages/books.md", "_scripts"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -195,6 +195,7 @@ exclude:
   - _pages/publications.md
   - _pages/dropdown.md
   - _pages/profiles.md
+  - _pages/repositories.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -636,10 +637,8 @@ jsonresume:
   - basics
   - work
   - education
-  - publications
+  - coursework
   - projects
-  - volunteer
-  - awards
   - certificates
   - skills
   - languages
