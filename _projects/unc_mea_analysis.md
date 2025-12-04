@@ -9,7 +9,7 @@ giscus_comments: true
 related_publications: true
 mermaid:
   enabled: true
-  zoomable: true
+  zoomable: false
 ---
 
 ## Summary
@@ -17,13 +17,13 @@ mermaid:
 My work as a Research Technician at the University of North Carolina involved working with Multi Electrode Array (MEA). This is a technique to measure electrical activity from neurons. Work consisted in cleaning, merging and visualization of this in an organized and accurate manner.
 This is an over all workflow:
 
-{ %mermaid }
+```mermaid
 graph LR
 A[Data acquisition] --> B[Generate Files]
 B --> C[Aggregate weekly data]
 C --> D[Feature extraction]
 D --> E[Data Analysis]
-{ %endmermaid }
+```
 
 ## Objectives
 
@@ -66,7 +66,7 @@ From which many files are generated (see below). The file we are the most intere
 graph LR
 AAA["Axis Navigator Software"] --> R[.raw file] ==> A[Spike Detection]
 
-    A ==> B[Burst Detector] ==> C[Statistics Compiler] ==> CSV>" Statistics Summary .csv file "]:::outputDoc
+    A ==> B[Burst Detector] ==> C[Statistics Compiler] ==> CSV>" Statistics Summary .csv file"]:::outputDoc
 
     A --> D>".spk Spike File"]:::outputDoc
     A --> E[Spike List] --> csvsl>"csv file spike list"]
@@ -87,10 +87,10 @@ I wrote a Python script to do this automatically.
 
 ```mermaid
 graph LR
-CSV@{shape: docs, label: "Statistics Summary (.csv file)"}
-CSV --> A["Clean and process files (batch process)"]
-A --> B["Single CSV file generation"]
-B --> C["Analysis and visualization"]
+  CSV@{shape: docs, label: "Statistics Summary (.csv file)"}
+  CSV --> A["Clean and process files (batch process)"]
+  A --> B["Single CSV file generation"]
+  B --> C["Analysis and visualization"]
 ```
 
 # My contribution
