@@ -76,6 +76,38 @@
       ]
     }
   ],
+  "coursework": [
+    {
+      "name": "Data Analytics for Business",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "R",
+        "Linear Models",
+        "Binary Response Models",
+        "Censored/Truncated Models",
+        "Survival Models"
+      ]
+    },
+    {
+      "name": "Introduction to Analytics Modeling",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "R",
+        "Regression",
+        "Classification and Clustering Models",
+        "Forecasting",
+        "Change Detection",
+        "Time series",
+        "PCA/PCR",
+        "Classification and Regression Trees"
+      ]
+    },
+    {
+      "name": "Computing for Data Analytics",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Python", "Data Structures", "Regression and Classification"]
+    }
+  ],
   "certificates": [
     {
       "name": "Supervised ML: Regression and Classification",
