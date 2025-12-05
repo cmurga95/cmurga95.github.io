@@ -14,7 +14,7 @@ toc:
   beginning: true
 ---
 
-## Summary
+# Summary
 
 My work as a Research Technician at the University of North Carolina involved working with Multi Electrode Array (MEA). This is a technique to measure electrical activity from neurons. Work consisted in cleaning, merging and visualization of this in an organized and accurate manner.
 This is an over all workflow:
@@ -27,33 +27,31 @@ C --> D[Feature extraction]
 D --> E[Data Analysis]
 ```
 
-## Objectives
+# Objectives
 
 - To develop a data analysis pipepline to facilitate data analysis and visualization
 - To find optimal parameters for spike detection that minimize false positives
 
-## Tools and skills used
+# Tools and skills used
 
-### Tools
+## Tools
 
 Python (Pandas, Dask, Numpy, Seaborn, Matplotlib), Excel
 
-### Skills
+## Skills
 
 Problem solving, feature extraction, data wrangling
 
-## Challenges
+# Challenges
 
 One of the biggest challenge was to catch up with literature and getting familiar with the whole process. It was a lot of fun regardless.
 Another challenge (more technical) was dealing with the vast amount of data, I overcome this by vectorizing operations, optimizing my code and leveraging other libraries such as dask.
 
-## Outcome
+# Outcome
 
 This workflow reduced times by as much as 90%. Doing this manually was very tedious and time consuming. Automation not only improved the quality of the analysis but it also validated the data and we were able to do visualizations and diagnose potential problems.
 
 ---
-
-# More details below :\)\)
 
 # Data Acquisition
 
@@ -123,17 +121,17 @@ Setting a proper detection threshold is crucial for accurate neural data analysi
 
 ### 4 uV noise
 
-<img src = "\assets\img\proj\Pasted%20image%2020250507225703.png" width="200">
+<img src = "/assets\img\proj\Pasted%20image%2020250507225703.png" width="200">
 
 ### 8 uV noise
 
-<img src = "\assets\img\proj\Pasted%20image%2020250507225709.png" width="200">
+<img src = "/assets\img\proj\Pasted%20image%2020250507225709.png" width="200">
 
 ## Spike Validation
 
 ## Extraction of Spike Windows to validate visually
 
-<img src = "\assets\img\proj\Pasted%20image%2020250728151200.png" width="200">
+<img src = "/assets\img\proj\Pasted%20image%2020250728151200.png" width="200">
 
 A strategy to validate the spikes is to first take a spike waveform that we visually validate and reconstruct a wavelet based on the frequencies of said spike. Or take a spike that already looks like the spike wavelet.
 
