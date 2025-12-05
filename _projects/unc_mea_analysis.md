@@ -123,17 +123,17 @@ Setting a proper detection threshold is crucial for accurate neural data analysi
 
 ### 4 uV noise
 
-<img src = "assets\img\proj\Pasted%20image%2020250507225703.png" width="200">
+<img src = "\assets\img\proj\Pasted%20image%2020250507225703.png" width="200">
 
 ### 8 uV noise
 
-<img src = "assets\img\proj\Pasted%20image%2020250507225709.png" width="200">
+<img src = "\assets\img\proj\Pasted%20image%2020250507225709.png" width="200">
 
 ## Spike Validation
 
 ## Extraction of Spike Windows to validate visually
 
-<img src = "assets\img\proj\Pasted%20image%2020250728151200.png" width="200">
+<img src = "\assets\img\proj\Pasted%20image%2020250728151200.png" width="200">
 
 A strategy to validate the spikes is to first take a spike waveform that we visually validate and reconstruct a wavelet based on the frequencies of said spike. Or take a spike that already looks like the spike wavelet.
 
@@ -208,7 +208,7 @@ By deconstructing the signal in its frequency spectrum, we can determine if a si
 
 FFT has low temporal resolution, another option is to run the analysis using Stationary Wavelet Transform, which extends the Fourier transform to have better temporal resolution.
 
-<img src = "assets\img\proj\Pasted%20image%2020250513124836.png" width="200">
+<img src = "/assets\img\proj\Pasted%20image%2020250513124836.png" width="200">
 
 SWT is decomposed into Low frequency Component (A) and the high frequency component (D).
 If we take the signal power ratio (D/A), we want to have a _high_ signal to noise ratio. Based on this, we can then build a threshold and determine real signals from noise.
