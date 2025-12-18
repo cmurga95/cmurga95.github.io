@@ -64,7 +64,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_martian/";
-            },},{id: "news-i-moved-to-chapel-hill-north-carolina-i-took-a-relocation-break",
+            },},{id: "news-started-working-at-confie-data-analyst-position",
+          title: 'Started working at Confie (Data Analyst Position)',
+          description: "",
+          section: "News",},{id: "news-started-working-at-unc-chapel-hill",
+          title: 'Started working at UNC: Chapel Hill',
+          description: "",
+          section: "News",},{id: "news-i-moved-to-chapel-hill-north-carolina-i-took-a-relocation-break",
           title: 'I moved to Chapel Hill, North Carolina. I took a relocation break.',
           description: "",
           section: "News",},{id: "news-started-cse6040-computing-for-data-analytics-through-edx",

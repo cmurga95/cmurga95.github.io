@@ -20,7 +20,7 @@ function determineGiscusTheme() {
     src: "https://giscus.app/client.js",
     "data-repo": "cmurga95/cmurga95.github.io",
     "data-repo-id": "",
-    "data-category": "Comments",
+    "data-category": "",
     "data-category-id": "",
     "data-mapping": "title",
     "data-strict": "1",
