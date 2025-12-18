@@ -6,7 +6,7 @@ subtitle: Kinetic Strategist, crafty analyst
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_r.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>US Citizen</p>
