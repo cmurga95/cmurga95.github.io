@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was admitted to the program at Georgia Institute of Technology!
+I was admitted the Master's of Science in Analytics program at Georgia Institute of Technology!
